@@ -1,0 +1,254 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+hr {
+	height: 2px;
+	background-color: black;
+	border-color: black;
+}
+
+body {
+	background-image: "bg.jpg";
+	width: auto;
+	height: auto;
+	color: black;
+	font-family: 'Ubuntu Mono', monospace;
+
+}
+
+#content {
+	width: auto;
+	height: auto;
+	margin: auto;
+	font-family: 'Ubuntu Mono', monospace;
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .row {flex-direction: column;}
+}
+
+.for-user {
+	font-family: 'Ubuntu Mono', monospace;
+	color: black;
+}
+
+.for-user a {
+	font-family: 'Ubuntu Mono', monospace;
+	text-decoration: none;
+}
+
+.rec-food {
+	font-family: Arial;
+}
+
+.inf {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 45px;
+	padding: 100px;
+	transform: scale(0.9) perspective(2500px);
+}
+
+.inf:hover {
+	transform: scale(1.0) perspective(2500px);
+	background-color: #f5f5f5;
+}
+
+button {
+	background-color: white;
+	border-radius: 20px;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+}
+
+.dropdown a{
+	border-radius: 30px;
+	font-size: 50px;
+	display: block;
+	color: black;
+	padding: 10px 15px;
+	text-align: left;
+	text-decoration: none;
+	transform: scale(0.9) perspective(2500px) rotateY(10deg);
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+}
+
+.contentdrop {
+	font-size: 50px;
+	font-family: Arial;
+	margin: auto;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	width: fit-content;
+	height: fit-content;
+	position: relative;
+	text-align: left;
+}
+
+.dropdown .contentdrop{
+	display: none;
+	position: absolute;
+	background-color: hsl(0, 0%, 100%);
+	min-width: 100px;
+	box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.800);
+	text-align: left;
+	border-radius: 30px;
+}
+
+.dropdown:hover .contentdrop {
+	display: block;
+	text-align: left;
+	max-width: 400px;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown button{
+	font-size: 60px;
+	background-color: white;
+	color: rgb(255, 255, 255);
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+	text-align: left;
+	margin: 5%;
+	height: 230px;
+	width: 230px;
+	border-radius: 500px;
+	box-shadow: 5px 5px 5px #00000057;
+}
+
+
+.dropdown a:hover{
+	background-color: rgb(235, 235, 235);
+	transform: scale(1.0) perspective(2500px) rotateY(10deg);
+}
+
+img.menuico{
+	border-radius: 500px;
+	margin: 0px;
+}
+
+img.menuico:hover{
+	transform: scale(1.1) perspective(2500px);
+}
+
+.title{
+	font-family: 'Monomaniac One', sans-serif;
+	color:black;
+	font-size:150px;
+	margin: 0px;
+}
+
+.contain {
+	background-color: #ffffffc1;
+	margin: 50px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 15px 15px #0000004a;
+}
+
+.contain::content {
+	margin: 5px;
+}
+
+.all {
+	margin: 30px;
+}
+
+
+#content img {
+	border-radius: 30px;
+	border: none;
+}
+
+#content video{
+	border-radius: 30px;
+}
+
+.selected {
+	transform: scale(1.1) perspective(2500px);
+	font-weight: bold;
+
+}
+
+.selected img{
+	transform: scale(1.2) perspective(2500px);
+}
+
+.name-one {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.name-one:hover {
+	color: #c2c2c2;
+	cursor: pointer;
+}
+
+.copyright{
+    text-align: left;
+    text-shadow: 2px 2px 2px#0000004d;
+    font-size: 13px;
+}
+
+a {
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+}
+
+.style1 {
+	font-size: medium;
+	background-color: #000000;
+	color: white;
+	padding: 30px;
+	border-radius: 25px;
+}
+
+.header{
+	background-color: #ffffff00;
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.style2{
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+	padding: 30px;
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.style2 img{
+	border-radius: 100px;
+}
+
+.source-code-style{
+	color: #fff;
+	font-size:8px;
+	text-decoration: none;
+}
+
+.source-code-style:hover {
+	color: #c2c2c2;
+	cursor: pointer;
+}
+
+.locationbut {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 45px;
+	padding: 80px;
+	transform: scale(0.9) perspective(2500px);
+}
+
+.locationbut:hover {
+	transform: scale(1.0) perspective(2500px);
+	background-color: #f5f5f5;
+}
