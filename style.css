@@ -216,6 +216,9 @@ a {
 	background-color: #ffffff00;
 	padding-top: 50px;
 	padding-bottom: 150px;
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .style2{
@@ -251,4 +254,17 @@ a {
 .locationbut:hover {
 	transform: scale(1.0) perspective(2500px);
 	background-color: #f5f5f5;
+	cursor: pointer;
+}
+
+.header-content {
+	background-color: #ffffffc1;
+}
+
+.decoration {
+	background-color: rgb(0, 0, 255);
+}
+
+.decoration img:hover {
+	transform: scale(1.2) perspective(2500px);
 }

@@ -14,5 +14,5 @@ function copylocation() {
   navigator.clipboard.writeText(copyText.value);
 
   // Alert the copied text
-  alert("Done");
+  alert("Copied");
 }
