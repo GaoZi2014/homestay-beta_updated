@@ -2,6 +2,10 @@ function password() {
   document.getElementById("pass").innerHTML="Myhomestay3212";
 }
 
+function hidepassword() {
+  document.getElementById("pass").innerHTML=" ";
+}
+
 function copylocation() {
   // Get the text field
   var copyText = document.getElementById("location");
