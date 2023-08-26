@@ -2,6 +2,7 @@ function password() {
   document.getElementById("pass").innerHTML="Myhomestay3212";
 }
 
+//Not Enabled
 function hidepassword() {
   document.getElementById("pass").innerHTML=" ";
 }
