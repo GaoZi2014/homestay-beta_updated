@@ -7,6 +7,8 @@ function hidepassword() {
   document.getElementById("pass").innerHTML=" ";
 }
 
+
+//Copy Full Location JavaScript
 function copylocation() {
   // Get the text field
   var copyText = document.getElementById("location");
