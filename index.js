@@ -27,14 +27,14 @@ function copylocation() {
 setTimeout(() => {
   const box = document.getElementById('contop');
   box.style.display = 'none';
-}, 3000);
+}, 8000);
 
 setTimeout(() => {
   const box = document.getElementById('brcontop1');
   box.style.display = 'none';
-}, 3000);
+}, 8000);
 
 setTimeout(() => {
   const box = document.getElementById('brcontop2');
   box.style.display = 'none';
-}, 3000);
+}, 8000);
