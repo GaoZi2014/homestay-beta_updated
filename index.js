@@ -2,13 +2,11 @@ function password() {
   document.getElementById("pass").innerHTML="Myhomestay3212";
 }
 
-//Not Enabled
 function hidepassword() {
-  document.getElementById("pass").innerHTML=" ";
+  document.getElementById("pass").innerHTML="<br>";
 }
 
 
-//Copy Full Location JavaScript
 function copylocation() {
   // Get the text field
   var copyText = document.getElementById("location");
@@ -23,3 +21,20 @@ function copylocation() {
   // Alert the copied text
   alert("Copied");
 }
+
+// Auto Contop Hide JavaScript
+
+setTimeout(() => {
+  const box = document.getElementById('contop');
+  box.style.display = 'none';
+}, 3000);
+
+setTimeout(() => {
+  const box = document.getElementById('brcontop1');
+  box.style.display = 'none';
+}, 3000);
+
+setTimeout(() => {
+  const box = document.getElementById('brcontop2');
+  box.style.display = 'none';
+}, 3000);
