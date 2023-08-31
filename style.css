@@ -210,7 +210,7 @@ a {
 
 .style1 {
 	font-size: medium;
-	background-color: #000000;
+	background-color: #000000cd;
 	color: white;
 	padding: 30px;
 	border-radius: 25px;
@@ -286,7 +286,7 @@ a {
 }
 
 .top {
-	background-color: #000000;
+	background-color: #000000cd;
 	margin: 0px;
 	color: #fff;
 
@@ -294,4 +294,22 @@ a {
 
 #contop {
 	margin: 50px;
+}
+
+.version h2 {
+	color: #686868;
+	margin: 0px;
+	
+}
+
+.background-for-user-note {
+	background-color: #000000cd;
+	color: #fff;
+	border-radius: 30px;
+}
+
+.background-for-user-location {
+	background-color: #000000cd;
+	color: #fff;
+	border-radius: 30px;
 }
