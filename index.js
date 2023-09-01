@@ -19,7 +19,7 @@ function copylocation() {
   navigator.clipboard.writeText(copyText.value);
 
   // Alert the copied text
-  alert("Copied");
+  alert("Copied the text: " + copyText.value);
 }
 
 // Auto Contop Hide JavaScript
