@@ -313,3 +313,9 @@ a {
 	color: #fff;
 	border-radius: 30px;
 }
+
+.noscript-text {
+	background-color: #000000cd;
+	color: #fff;
+	font-size: 40px;
+}
