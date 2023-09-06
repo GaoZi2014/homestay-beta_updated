@@ -55,11 +55,6 @@ body {
 	transform: scale(0.9) perspective(2500px);
 }
 
-.inf:hover {
-	transform: scale(1.0) perspective(2500px);
-	background-color: #f5f5f5;
-}
-
 button {
 	background-color: white;
 	border-radius: 20px;
@@ -226,7 +221,7 @@ a {
 }
 
 .style2{
-	background-color: #000000;
+	background-color: #000000cd;
 	color: rgb(255, 255, 255);
 	padding: 30px;
 	border-radius: 0px;
@@ -248,19 +243,6 @@ a {
 	cursor: pointer;
 }
 
-.locationbut {
-	font-family: 'Share Tech Mono', monospace;
-	font-size: 45px;
-	padding: 80px;
-	transform: scale(0.9) perspective(2500px);
-}
-
-.locationbut:hover {
-	transform: scale(1.0) perspective(2500px);
-	background-color: #f5f5f5;
-	cursor: pointer;
-}
-
 .header-content {
 	background-color: #ffffffc1;
 }
@@ -278,11 +260,6 @@ a {
 	font-size: 45px;
 	padding: 50px;
 	transform: scale(0.9) perspective(2500px);
-}
-
-.inf1:hover {
-	transform: scale(1.0) perspective(2500px);
-	background-color: #f5f5f5;
 }
 
 .top {
@@ -314,8 +291,21 @@ a {
 	border-radius: 30px;
 }
 
+.background-for-user-location li{
+	color: #00b3ff;
+	font-size: 40px;
+}
+
 .noscript-text {
 	background-color: #000000cd;
 	color: #fff;
 	font-size: 40px;
+}
+
+.style3 {
+	font-size: medium;
+	background-color: #ffffffcd;
+	color: rgb(0, 0, 0);
+	padding: 30px;
+	border-radius: 25px;
 }
