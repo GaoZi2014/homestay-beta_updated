@@ -22,3 +22,33 @@ setTimeout(() => {
   const box = document.getElementById('brcontop2');
   box.style.display = 'none';
 }, 8000);
+
+function play() {
+  var myVideo = document.getElementById("video-1")
+  myVideo.play();
+}
+
+function pause() {
+  var myVideo = document.getElementById("video-1")
+  myVideo.pause();
+}
+
+function play1() {
+  var myVideo = document.getElementById("video-2")
+  myVideo.play();
+}
+
+function pause1() {
+  var myVideo = document.getElementById("video-2")
+  myVideo.pause();
+}
+
+function play2() {
+  var myVideo = document.getElementById("video-3")
+  myVideo.play();
+}
+
+function pause2() {
+  var myVideo = document.getElementById("video-3")
+  myVideo.pause();
+}

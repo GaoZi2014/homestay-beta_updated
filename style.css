@@ -309,3 +309,10 @@ a {
 	padding: 30px;
 	border-radius: 25px;
 }
+
+.play-pausebutton button{
+	font-size: 45px;
+	padding: 50px;
+	border-radius: 100px;
+	margin: 10px;
+}
