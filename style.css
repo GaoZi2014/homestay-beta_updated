@@ -314,5 +314,14 @@ a {
 	font-size: 45px;
 	padding: 50px;
 	border-radius: 100px;
+	background-color: #ffffff86;
 	margin: 10px;
+}
+
+.play-pausebutton button:hover{
+	font-size: 45px;
+	padding: 50px;
+	border-radius: 100px;
+	margin: 10px;
+	background-color: #f5f5f586;
 }

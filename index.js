@@ -52,3 +52,13 @@ function pause2() {
   var myVideo = document.getElementById("video-3")
   myVideo.pause();
 }
+
+function play3() {
+  var myVideo = document.getElementById("video-4")
+  myVideo.play();
+}
+
+function pause3() {
+  var myVideo = document.getElementById("video-4")
+  myVideo.pause();
+}
