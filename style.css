@@ -80,6 +80,7 @@ button {
 .contentdrop {
 	font-size: 50px;
 	font-family: Arial;
+	z-index: 1;
 	margin: auto;
 	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 	width: fit-content;
@@ -146,10 +147,11 @@ img.menuico:hover{
 }
 
 .contain {
-	background-color: #ffffffc1;
+	background-color: #ffffff00;
 	margin: 50px;
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 15px #0000004a;
+	backdrop-filter: blur(9.0px);
 }
 
 .contain::content {
@@ -244,11 +246,15 @@ a {
 }
 
 .header-content {
-	background-color: #ffffffc1;
+	background-color: #ffffff89;
+	backdrop-filter: blur(9.0px);
 }
 
 .decoration {
-	background-color: #000000c1;
+	height: 80px;
+	width: 80px;
+	border-radius: 500px;
+	margin: 10px;
 }
 
 .decoration img:hover {
@@ -280,15 +286,17 @@ a {
 }
 
 .background-for-user-note {
-	background-color: #000000cd;
+	background-color: #000000b8;
 	color: #fff;
 	border-radius: 30px;
+	backdrop-filter: blur(9.0px);
 }
 
 .background-for-user-location {
-	background-color: #000000cd;
+	background-color: #000000b8;
 	color: #fff;
 	border-radius: 30px;
+	backdrop-filter: blur(9.0px);
 }
 
 .background-for-user-location li{
