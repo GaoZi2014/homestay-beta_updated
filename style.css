@@ -1,6 +1,6 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Ubuntu+Mono:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
 
 hr {
@@ -14,7 +14,7 @@ body {
 	width: auto;
 	height: auto;
 	color: black;
-	font-family: 'Ubuntu Mono', monospace;
+	font-family: 'Poppins', sans-serif;
 
 }
 
@@ -22,7 +22,7 @@ body {
 	width: auto;
 	height: auto;
 	margin: auto;
-	font-family: 'Ubuntu Mono', monospace;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 }
 
@@ -31,12 +31,12 @@ body {
 }
 
 .for-user {
-	font-family: 'Ubuntu Mono', monospace;
+	font-family: 'Poppins', sans-serif;
 	color: black;
 }
 
 .for-user a {
-	font-family: 'Ubuntu Mono', monospace;
+	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
 }
 
@@ -45,11 +45,11 @@ body {
 }
 
 .rec-food {
-	font-family: Arial;
+	font-family: 'Poppins', sans-serif;
 }
 
 .inf {
-	font-family: 'Share Tech Mono', monospace;
+	font-family: 'Poppins', sans-serif;
 	font-size: 45px;
 	padding: 50px;
 	transform: scale(0.9) perspective(2500px);
@@ -79,7 +79,8 @@ button {
 
 .contentdrop {
 	font-size: 50px;
-	font-family: Arial;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
 	z-index: 1;
 	margin: auto;
 	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -174,7 +175,7 @@ img.menuico:hover{
 
 .selected {
 	transform: scale(1.1) perspective(2500px);
-	font-weight: bold;
+	font-weight: 600;
 
 }
 
@@ -186,6 +187,7 @@ img.menuico:hover{
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
+	font-weight: 600;
 }
 
 .name-one:hover {
@@ -207,6 +209,14 @@ a {
 
 .style1 {
 	font-size: medium;
+	background-color: #000000cd;
+	color: white;
+	padding: 30px;
+	border-radius: 25px;
+}
+
+.style1-fordec {
+	font-size: 15px;
 	background-color: #000000cd;
 	color: white;
 	padding: 30px;
@@ -238,6 +248,7 @@ a {
 	color: #fff;
 	font-size:8px;
 	text-decoration: none;
+	font-weight: 400;
 }
 
 .source-code-style:hover {
@@ -257,12 +268,16 @@ a {
 	margin: 10px;
 }
 
+.decoration img {
+	border-radius: 100px;
+}
+
 .decoration img:hover {
 	transform: scale(1.2) perspective(2500px);
 }
 
 .inf1 {
-	font-family: 'Share Tech Mono', monospace;
+	font-family: 'Poppins', sans-serif;
 	font-size: 45px;
 	padding: 50px;
 	transform: scale(0.9) perspective(2500px);
@@ -289,14 +304,12 @@ a {
 	background-color: #000000b8;
 	color: #fff;
 	border-radius: 30px;
-	backdrop-filter: blur(9.0px);
 }
 
 .background-for-user-location {
 	background-color: #000000b8;
 	color: #fff;
 	border-radius: 30px;
-	backdrop-filter: blur(9.0px);
 }
 
 .background-for-user-location li{
@@ -333,4 +346,16 @@ a {
 	margin: 10px;
 	background-color: #f5f5f586;
 	cursor: pointer;
+}
+
+.copyright-notice{
+	background-color: #000000cd;
+	color: rgb(255, 255, 255);
+	padding: 30px;
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.copyright-notice img{
+	border-radius: 100px;
 }
