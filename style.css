@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
 
@@ -53,6 +53,10 @@ body {
 	font-size: 45px;
 	padding: 50px;
 	transform: scale(0.9) perspective(2500px);
+}
+
+.inf:hover {
+	background-color: #f5f5f5;
 }
 
 button {
@@ -148,11 +152,11 @@ img.menuico:hover{
 }
 
 .contain {
-	background-color: #ffffff00;
+	background-color: #ffffffcd;
 	margin: 50px;
 	border-radius: 30px;
 	box-shadow: 0px 0px 15px 15px #0000004a;
-	backdrop-filter: blur(9.0px);
+	
 }
 
 .contain::content {
@@ -258,7 +262,7 @@ a {
 
 .header-content {
 	background-color: #ffffff89;
-	backdrop-filter: blur(9.0px);
+	
 }
 
 .decoration {
@@ -281,6 +285,10 @@ a {
 	font-size: 45px;
 	padding: 50px;
 	transform: scale(0.9) perspective(2500px);
+}
+
+.inf1:hover {
+	background-color: #f5f5f5;
 }
 
 .top {
@@ -306,6 +314,10 @@ a {
 	border-radius: 30px;
 }
 
+.background-for-user-note li{
+	text-align: center;
+}
+
 .background-for-user-location {
 	background-color: #000000b8;
 	color: #fff;
@@ -314,7 +326,16 @@ a {
 
 .background-for-user-location li{
 	color: #00b3ff;
-	font-size: 40px;
+	font-size: 35px;
+}
+
+.background-for-user-location li:hover{
+	color: #0095d4;
+}
+
+.locationlink b{
+	font-weight: 500;
+	
 }
 
 .noscript-text {
@@ -359,3 +380,11 @@ a {
 .copyright-notice img{
 	border-radius: 100px;
 }
+
+.click-here-for-menu-notice-textstyle{
+	margin: 10px;
+	font-weight: 600;
+	font-size: 15px;
+	max-width: 500px;
+}
+
