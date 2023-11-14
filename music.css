@@ -17,8 +17,8 @@ body {
     width: 90%;
     border-radius: 20px;
     box-shadow: 4px 4px 4px #0000005c;
-    height: 90vh;
-    min-height: 900px;
+    height: 95vh;
+    min-height: 95vh;
     font-family: 'Poppins';
     font-weight: 300;
 }
@@ -50,6 +50,7 @@ img.cardimg {
     color: rgb(92, 92, 92);
     font-family: 'Ubuntu Mono', monospace;
 }
+
 
 .link {
     font-size: 30px;
