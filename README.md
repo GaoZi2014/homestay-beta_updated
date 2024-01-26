@@ -7,4 +7,4 @@
 <p align="center"><img src="https://jiegephoto.netlify.app/mh.png"></p>
 
 > ## Lastest Notice
-[Click To View][https://github.com/GaoZi2014/homestay-beta_updated/blob/main/Notice/2024/notice_1_26.txt]
+[view][https://github.com/GaoZi2014/homestay-beta_updated/blob/main/Notice/2024/notice_1_26.txt]
