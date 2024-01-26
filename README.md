@@ -7,4 +7,4 @@
 <p align="center"><img src="https://jiegephoto.netlify.app/mh.png"></p>
 
 > ## Lastest Notice
-<p align="center">[Click To View][/Notice/2024/notice_1_26]</p>
+[Click To View][/Notice/2024/notice_1_26]
