@@ -7,4 +7,4 @@
 <p align="center"><img src="https://jiegephoto.netlify.app/mh.png"></p>
 
 > ## Lastest Notice
-> <a href="/Notice/2024/notice_1 26.txt"></a>
+> <a href="/Notice/2024/notice_1_26.txt"><p>Click To View</p></a>
