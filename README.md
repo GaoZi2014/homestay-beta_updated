@@ -7,4 +7,4 @@
 <p align="center"><img src="https://jiegephoto.netlify.app/mh.png"></p>
 
 > ## Lastest Notice
-> We are fixing spacing issues now!
+> <a href="/Notice/2024/notice_1 26.txt"></a>
